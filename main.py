@@ -28,12 +28,12 @@ LOGIN_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L3G3ND AMIL- Login</title>
+    <title>L3G3ND ASHISH- Login</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?fASHISHy=Poppins:wght@300;400;500;600;700&display=swap');
         
         body {
-            font-family: 'Poppins', sans-serif;
+            font-fASHISHy: 'Poppins', sans-serif;
             background-image: url('https://i.ibb.co/sWrxFqn/2c3896ef289c07f31387973c3d6acb7d.jpg');
             background-size: cover;
             background-repeat: no-repeat;
@@ -119,7 +119,7 @@ LOGIN_TEMPLATE = '''
 </head>
 <body>
     <div class="login-container">
-        <h1>L3G3ND AMIL</h1>
+        <h1>L3G3ND ASHISH</h1>
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
@@ -146,10 +146,10 @@ ADMIN_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L3G3ND AMIL - Admin Panel</title>
+    <title>L3G3ND ASHISH - Admin Panel</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-fASHISHy: Arial, sans-serif;
             background-image: url('https://i.ibb.co/sWrxFqn/2c3896ef289c07f31387973c3d6acb7d.jpg');
             background-size: cover;
             background-repeat: no-repeat;
@@ -216,8 +216,8 @@ ADMIN_TEMPLATE = '''
         <div class="logout">
             <a href="{{ url_for('logout') }}">Logout</a>
         </div>
-        <h1>L3G3ND AMIL</h1>
-        <h2>L3G3ND AMIL MULTI CONVO</h2>
+        <h1>L3G3ND ASHISH</h1>
+        <h2>L3G3ND ASHISH MULTI CONVO</h2>
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
